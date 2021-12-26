@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>Marvel characters</h1>
+    <input class="form-control" type="text" ng-model="searchCriteria" placeholder="Character name?"/>
+    <table ng-if="characters.length > 0" class="table table-dark table-striped">
+        <tr ng-repeat="c in characters | filter:searchCriteria">
+            <td><a href="#!/characterDetails/{{c.id}}">{{c.name}}</a></td>
+            <!-- <td><img ng-src="{{c.thumbnail.path}}.{{c.thumbnail.extension}}"/></td> -->
+        </tr>    
+    </table>
+ </div>

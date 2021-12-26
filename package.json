@@ -1,0 +1,28 @@
+{
+  "name": "marvelapp",
+  "version": "1.0.0",
+  "description": "marvel app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carvalhovictor/marvelapp.git"
+  },
+  "keywords": [
+    "marvel",
+    "api"
+  ],
+  "author": "Victor Carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carvalhovictor/marvelapp/issues"
+  },
+  "homepage": "https://github.com/carvalhovictor/marvelapp#readme",
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-md5": "^0.1.10",
+    "angular-route": "^1.8.2"
+  }
+}

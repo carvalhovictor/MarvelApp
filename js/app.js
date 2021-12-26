@@ -1,0 +1,1 @@
+angular.module('marvelApp', ['ngRoute', 'angular-md5']);

@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>{{character.name}}</h1>
+	<img ng-src="{{character.thumbnail.path}}.{{character.thumbnail.extension}}"/>
+    <h3>Comic books list</h3>
+    <table class="table table-dark table-striped"> 
+		<tr ng-repeat="c in character.comics.items">
+			<td>{{c.name}}</td>
+		</tr>
+	</table>
+	<a class="back-button" href="#!/home">Back</a>
+</div>
